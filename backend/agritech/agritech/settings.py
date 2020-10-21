@@ -34,6 +34,7 @@ INSTALLED_APPS = [
     #My Apps
     'api.apps.ApiConfig',
     'blogs.apps.BlogsConfig',
+    'blog_categories.apps.BlogCategoriesConfig',
 ]
 
 CORS_ALLOW_ALL_ORIGINS = True
