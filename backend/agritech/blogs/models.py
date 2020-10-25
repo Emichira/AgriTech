@@ -3,7 +3,7 @@ from datetime import datetime
 from blog_categories.models import BlogCategory
 
 class Blog(models.Model):
-    categories = models.ManyToManyField(BlogCategory, blank=True, null=True)
+    categories = models.ManyToManyField(BlogCategory, blank=True)
     slug = models.SlugField(unique=True)
     blog_image = models.ImageField(upload_to='images/blog/%Y/%m/%d/')
     title = models.CharField(max_length=200)

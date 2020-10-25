@@ -1,7 +1,7 @@
 # import serializer from rest_framework
 from rest_framework import serializers
 # import blog model from blogs app
-from blogs.models import Blog
+from .models import Blog
 from blog_categories.models import BlogCategory
 
 # create a serializer for blogs model
