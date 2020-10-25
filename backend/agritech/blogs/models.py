@@ -20,6 +20,7 @@ class Blog(models.Model):
     def __str__(self):
         return self.title
 
+# returns blogs count.
     @property
     def blog_count(self):
         return Blog.objects.filter(blog=self).count()
