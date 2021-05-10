@@ -162,3 +162,6 @@ dmypy.json
 !.vscode/launch.json
 !.vscode/extensions.json
 .history
+**/.vscode/
+.vscode
+*.code-workspace
