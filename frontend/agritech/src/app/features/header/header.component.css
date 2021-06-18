@@ -1,0 +1,14 @@
+/* Remove underline from links */
+a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:active {
+    background: #265301;
+    color: #cdfeaa;
+  }
+  a:hover {
+    border-bottom: 1px solid;
+  }

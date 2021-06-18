@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Show navbar is not fixed to the top */
+
+body {
+  background-color: #F7F6F4;
+}

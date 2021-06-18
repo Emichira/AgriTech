@@ -1,0 +1,66 @@
+/* CUSTOM CSS
+-------------------------------------------------- */
+.bg-patners {
+  background-color: #598216;
+}
+
+/* Remove underline from links */
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:active {
+  background: #265301;
+  color: #cdfeaa;
+}
+a:hover {
+  border-bottom: 1px solid;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+/* rtl:begin:ignore */
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+/* rtl:end:ignore */
+.bg-footer {
+  background-color: #416422;
+}
+
+.link-secondary {
+  color: #ffffff;
+}
+
+hr:not([size]) {
+  height: 2px;
+}
+
+hr {
+  max-width: 60px;
+  margin: 1rem 0;
+  color: inherit;
+  background-color: #ffffff;
+  border: 0;
+  opacity: 1.25;
+}
+
+.circle-icon {
+  background: #000;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100px;
+  vertical-align: middle;
+  padding: 30px;
+}

@@ -1,0 +1,217 @@
+<header>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: #F7F6F4;" aria-label="Agritech navbar">
+        <div class="container">
+            <a class="navbar-brand" href="/">
+                <div class="logo-image">
+                    <img src="../../../assets/logo-small.png" style="height: 35px;" class="img-fluid"
+                        alt="Agritech Logo Image">
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample07XL"
+                aria-controls="navbarsExample07XL" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExample07XL">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">MarketPlace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blogs</a>
+                    </li>
+                </ul>
+
+                <div class="nav-section" style="display: contents;">
+                    <!-- search navbar section -->
+                    <!-- Search icon trigger modal -->
+                    <i class="fas fa-search" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        style="color: rgba(0,0,0,.55); margin-right: 0.5rem;"></i>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Agritech Search</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="input-group mb-3">
+                                            <div class="input-group-prepend">
+                                                <span class="input-group-text"
+                                                    id="inputGroup-sizing-default">Search</span>
+                                            </div>
+                                            <input type="text" class="form-control"
+                                                placeholder="Search products or blogs" aria-label="Sizing example input"
+                                                aria-describedby="inputGroup-sizing-default">
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Search</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- login navbar section -->
+                    <div class="modal fade" id="exampleModalToggle" aria-hidden="true"
+                        aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel">Agritech Login</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="exampleInputEmail1">Email address</label>
+                                            <input type="email" class="form-control" id="email" name="email"
+                                                autocomplete="username" aria-describedby="emailHelp">
+                                            <small id="emailHelp" class="form-text text-muted">We'll never share your
+                                                email
+                                                with anyone else.</small>
+                                        </div>
+                                        <div class="form-group mb-1">
+                                            <label for="exampleInputPassword1">Password</label>
+                                            <input type="password" class="form-control" autocomplete="current-password"
+                                                id="current-password">
+                                        </div>
+                                        <div class="form-group mb-2">
+                                            <label for="exampleFormControlSelect1">User select</label>
+                                            <select class="form-control" id="exampleFormControlSelect1">
+                                                <option selected>Buyer Login</option>
+                                                <option>Supplier Login</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group form-check mb-3">
+                                            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                            <label class="form-check-label" for="exampleCheck1">Remember my
+                                                preference</label>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary">Sign In</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle2"
+                                        data-bs-toggle="modal" data-bs-dismiss="modal">Register</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true"
+                        aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalToggleLabel2">Agritech Registration</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationDefault01">Full names</label>
+                                                <input type="text" class="form-control" id="email" name="email"
+                                                    autocomplete="username" placeholder="Wangari Maathai..." required>
+                                            </div>
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationDefault02">Telephone Number</label>
+                                                <input type="tel" class="form-control" id="validationDefault02"
+                                                    placeholder="+254..." required>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col-md-6 mb-3">
+                                                <label for="validationDefault03">Location</label>
+                                                <input type="text" class="form-control" id="validationDefault03"
+                                                    placeholder="Nakuru" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-row mb-3">
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1">Create Password</label>
+                                                <input type="password" class="form-control" autocomplete="new-password"
+                                                    id="new-password"
+                                                    placeholder="Eight or more characters with letters, numbers and symbols."
+                                                    required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="exampleInputPassword1">Confirm Password</label>
+                                                <input type="password" class="form-control" autocomplete="new-password"
+                                                    id="new-password" required>
+                                            </div>
+                                        </div>
+                                        <div class="form-row mb-2">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios"
+                                                    id="exampleRadios1" value="option1" checked>
+                                                <label class="form-check-label" for="exampleRadios1">
+                                                    Buyer Account
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios"
+                                                    id="exampleRadios2" value="option2">
+                                                <label class="form-check-label" for="exampleRadios2">
+                                                    Farmer Account
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="exampleRadios"
+                                                    id="exampleRadios3" value="option3" disabled>
+                                                <label class="form-check-label" for="exampleRadios3">
+                                                    Both Buyer Account and Farmer Account
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="form-group mb-3">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="invalidCheck2" required>
+                                                <label class="form-check-label" for="invalidCheck2">
+                                                    Agree to terms and conditions
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <button class="btn btn-primary" type="submit">Sign Up</button>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button class="btn btn-primary" data-bs-target="#exampleModalToggle"
+                                        data-bs-toggle="modal" data-bs-dismiss="modal">Login</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- user login button trigger modal -->
+                    <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModalToggle"
+                    style="margin-right: 0.5rem;">
+                        <i class="fas fa-users"></i>
+                        Login
+                    </button>
+
+                    <a href="#" class="navbar-modal"><i class="fa fa-fw fa-heart"
+                            style="color: rgba(0,0,0,.55); margin-right: 2rem;"></i> </a>
+                    <a href="#" class="navbar-modal"><i class="fa fa-fw fa-shopping-cart"
+                            style="color: rgba(0,0,0,.55);"></i> </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
