@@ -1,0 +1,12 @@
+.black {
+    color: black;
+}
+.selecta {
+    border-color: transparent;
+    border-bottom-color: #416422;
+    color: #000000
+}
+
+::placeholder {
+    color: black;
+  }
