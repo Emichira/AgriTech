@@ -19,7 +19,7 @@ hr:not([size]) {
   height: 2px;
 }
 
-hr {
+.featurette-divider {
   max-width: 60px;
   margin: 1rem 0;
   color: inherit;
