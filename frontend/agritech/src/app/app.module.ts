@@ -9,6 +9,7 @@ import { FooterComponent } from './features/footer/footer.component';
 import { ProductsPageComponent } from './pages/products-page/products-page.component';
 import { ProductDetailComponent } from './pages/product-detail/product-detail.component';
 import { ShoppingCartComponent } from './pages/shopping-cart/shopping-cart.component';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { ShoppingCartComponent } from './pages/shopping-cart/shopping-cart.compo
     FooterComponent,
     ProductsPageComponent,
     ProductDetailComponent,
-    ShoppingCartComponent
+    ShoppingCartComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,
