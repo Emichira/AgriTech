@@ -15,6 +15,11 @@ body {
   background-color: #416422;
 }
 
+.bg-button:hover {
+    background-color: #819A20;
+    color: #fff;
+}
+
 hr:not([size]) {
   height: 2px;
 }

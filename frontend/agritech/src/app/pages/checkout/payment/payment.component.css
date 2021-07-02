@@ -1,0 +1,9 @@
+.dropdown-toggle::after {
+    display:none;
+}
+.care::before {
+    display: none;
+}
+.care::after {
+    padding: 0;
+}

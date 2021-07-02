@@ -10,6 +10,8 @@ import { ProductsPageComponent } from './pages/products-page/products-page.compo
 import { ProductDetailComponent } from './pages/product-detail/product-detail.component';
 import { ShoppingCartComponent } from './pages/shopping-cart/shopping-cart.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
+import { ShippingDetailsComponent } from './pages/checkout/shipping-details/shipping-details.component';
+import { PaymentComponent } from './pages/checkout/payment/payment.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { CheckoutComponent } from './pages/checkout/checkout.component';
     ProductsPageComponent,
     ProductDetailComponent,
     ShoppingCartComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    ShippingDetailsComponent,
+    PaymentComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,197 @@
+<main class="container mb-5" style="max-width: 960px;">
+    <div class="py-5 text-center">
+        <h2>Checkout form</h2>
+    </div>
+
+    <div class="row g-5 px-4">
+        <div class="col-md-5 col-lg-4 order-md-last">
+            <h4 class="d-flex justify-content-between align-items-center mb-3">
+                <span class="text-primary">Your cart</span>
+                <span class="badge bg-primary rounded-pill">3</span>
+            </h4>
+            <ul class="list-group mb-3">
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <h6 class="my-0">Coconuts</h6>
+                        <small class="text-muted">Weight - 20 kg</small>
+                        <br>
+                        <small class="text-muted">Unit Price: KES 30</small>
+                    </div>
+                    <span class="text-muted">KES 600</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <h6 class="my-0">Strawberries</h6>
+                        <small class="text-muted">Weight - 2 kg</small>
+                        <br>
+                        <small class="text-muted">Unit Price: KES 300</small>
+                    </div>
+                    <span class="text-muted">KES 600</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between lh-sm">
+                    <div>
+                        <h6 class="my-0">Hass Avocados</h6>
+                        <small class="text-muted">Weight - 50 kg</small>
+                        <br>
+                        <small class="text-muted">Unit Price: KES 1000</small>
+                    </div>
+                    <span class="text-muted">KES 600</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between bg-light">
+                    <div class="text-success">
+                        <h6 class="my-0">Promo code</h6>
+                        <small>EXPLECD</small>
+                    </div>
+                    <span class="text-success">−5%</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between">
+                    <span>Total (KES)</span>
+                    <strong>KES 2090</strong>
+                </li>
+            </ul>
+
+            <form class="card p-2">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Promo code">
+                    <button type="submit" class="btn btn-secondary">Redeem</button>
+                </div>
+            </form>
+        </div>
+        <div class="col-md-7 col-lg-8">
+            <h4 class="mb-3">Shipping Address</h4>
+            <form class="needs-validation" novalidate>
+                <div class="row g-3">
+                    <div class="col-sm-6">
+                        <label for="firstName" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Valid first name is required.
+                        </div>
+                    </div>
+
+                    <div class="col-sm-6">
+                        <label for="lastName" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                        <div class="invalid-feedback">
+                            Valid last name is required.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="you@example.com">
+                        <div class="invalid-feedback">
+                            Please enter a valid email address for shipping updates.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="phone" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" placeholder="0700123654" required>
+                        <div class="invalid-feedback">
+                            Please enter your phone number.
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <label for="address" class="form-label">Shipping Address</label>
+                        <span class="text-muted">(Optional)</span>
+                        <input type="text" class="form-control" id="address" placeholder="Town or address">
+                    </div>
+
+                    <div class="col-md-5">
+                        <label for="country" class="form-label">Country</label>
+                        <select class="form-select" id="country" required>
+                            <option selected>Kenya</option>
+                            <option value="">Uganda</option>
+                            <option value="">Tanzania</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please select a valid country.
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <label for="county" class="form-label">County</label>
+                        <select class="form-select" id="state" required>
+                            <option selected>Choose...</option>
+                            <option value="baringo">Baringo</option>
+                            <option value="bomet">Bomet</option>
+                            <option value="bungoma">Bungoma</option>
+                            <option value="busia">Busia</option>
+                            <option value="elgeyo marakwet">Elgeyo Marakwet</option>
+                            <option value="embu">Embu</option>
+                            <option value="garissa">Garissa</option>
+                            <option value="homa bay">Homa Bay</option>
+                            <option value="isiolo">Isiolo</option>
+                            <option value="kajiado">Kajiado</option>
+                            <option value="kakamega">Kakamega</option>
+                            <option value="kericho">Kericho</option>
+                            <option value="kiambu">Kiambu</option>
+                            <option value="kilifi">Kilifi</option>
+                            <option value="kirinyaga">Kirinyaga</option>
+                            <option value="kisii">Kisii</option>
+                            <option value="kisumu">Kisumu</option>
+                            <option value="kitui">Kitui</option>
+                            <option value="kwale">Kwale</option>
+                            <option value="laikipia">Laikipia</option>
+                            <option value="lamu">Lamu</option>
+                            <option value="machakos">Machakos</option>
+                            <option value="makueni">Makueni</option>
+                            <option value="mandera">Mandera</option>
+                            <option value="meru">Meru</option>
+                            <option value="migori">Migori</option>
+                            <option value="marsabit">Marsabit</option>
+                            <option value="mombasa">Mombasa</option>
+                            <option value="muranga">Muranga</option>
+                            <option value="nairobi">Nairobi</option>
+                            <option value="nakuru">Nakuru</option>
+                            <option value="nandi">Nandi</option>
+                            <option value="narok">Narok</option>
+                            <option value="nyamira">Nyamira</option>
+                            <option value="nyandarua">Nyandarua</option>
+                            <option value="nyeri">Nyeri</option>
+                            <option value="samburu">Samburu</option>
+                            <option value="siaya">Siaya</option>
+                            <option value="taita taveta">Taita Taveta</option>
+                            <option value="tana river">Tana River</option>
+                            <option value="tharaka nithi">Tharaka Nithi</option>
+                            <option value="trans nzoia">Trans Nzoia</option>
+                            <option value="turkana">Turkana</option>
+                            <option value="uasin gishu">Uasin Gishu</option>
+                            <option value="vihiga">Vihiga</option>
+                            <option value="wajir">Wajir</option>
+                            <option value="pokot">West Pokot</option>
+                        </select>
+                        <div class="invalid-feedback">
+                            Please provide a valid county name.
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="my-4">
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="same-address">
+                    <label class="form-check-label" for="same-address">Will cater for my own transport</label>
+                </div>
+
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="save-info">
+                    <label class="form-check-label" for="save-info">Save this information for next time</label>
+                </div>
+
+                <hr class="my-4">
+
+                    <div class="row">
+                    <div class="col-md-6 py-2">
+                        <button type="button" class="btn btn-outline-success btn-lg w-100 px-4 me-sm-3 fw-bold">Continue Shopping</button>
+                    </div>
+                    <div class="col-md-6 py-2">
+                        <button class="w-100 btn btn-primary btn-lg bg-button" type="submit">Place My Order</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</main>
