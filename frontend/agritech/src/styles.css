@@ -51,3 +51,32 @@ hr:not([size]) {
   margin-left: 0.75rem;
 }
 /* rtl:end:ignore */
+
+.slider .owl-prev, .slider .owl-next {
+  padding-top: 100px !important;
+  padding-bottom: 100px !important;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  background: transparent !important;
+  font-size: 35px !important;
+  color: #416422 !important;
+}
+
+.slider .owl-prev {
+  left: -22px;
+}
+
+.slider .owl-next {
+  right: -58px;
+}
+
+.slider .owl-prev:hover {
+  left: -27px;
+  color: #819A20 !important;
+}
+
+.slider .owl-next:hover {
+  right: -65px;
+  color: #819A20 !important;
+}
